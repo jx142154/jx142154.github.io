@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<link rel="shortcut icon" href="cat.ico"/>
+<title>HW 3</title>
+</head>
+<header></header>
+
+
+<body>
+<div class="title">
+	<span class ="name"> 黃茄瑄 （Wong Jia Xuan)</span>
+	<span id ="todaysDate"> </span>
+	
+</div>
+
+<script>
+var myVar = setInterval(myTimer,1000);
+function myTimer(){
+    var show = "";
+    var now  = new Date();// current date/time
+    var month = now.getMonth();
+    var day = now.getDate();
+    var year = now.getFullYear();
+    var hrs = now.getHours();
+    var mins = now.getMinutes();
+    var secs = now.getSeconds();
+    show += month + "-" + day + "-" + year +" " + hrs + ":" + mins +":" + secs
+    document.getElementById("todaysDate").innerHTML = show;}
+</script>
+
+
+<div class="sidebar">
+		<span><img src="self.jpg" width="200" height="280"></span>
+	</div>
+
+<div class="brief">
+	<div class="t1"><span>個人介紹</span></div>
+	<span><p>Wong Jia Xuan is a Malaysian. She graduated from <a href="http://www.fyk.edu.my/">Foon Yew High School Kulai(寬柔中學古來分校) </a>in 2019. Her major is <a href="https://web.ee.ntu.edu.tw/"> Electrical Engineering(電機系)</a>.</p></span>
+	<span><p>Hobby：</p></span>
+		<u1>
+			<li>watching anime -> Ofiicial Website of 86: <a href="https://anime-86.com/">86-不存在的戰區</a></li>
+			<li>watching cat video -> Facebook group: <a href="https://www.facebook.com/groups/741255842699051/?multi_permalinks=2004622076362415">我怕世界沒有貓</a></li>
+			<li>listening to music ->Youtube: <a href="https://www.youtube.com/watch?v=4ja403hodxM">SawanoHiroyuki[nZk] [-30k]re:tuneS「Avid ＜MODv＞</a></li>
+		</u1>
+	</div>
+
+
+<div style='clear:both;'></div>
+<div class="footer">
+	<p><audio autoplay loop controls >
+		<source src="The Colonel - Zachariah Hickman.mp3"  type="audio/mpeg"/>
+	</audio></p>
+	<p>Email:b09901119@ntu.edu.tw</p>
+</div>
+
+
+</body>
+
+</html>

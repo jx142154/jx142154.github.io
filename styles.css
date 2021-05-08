@@ -1,0 +1,57 @@
+
+a:link {color: pink;}
+a:visited {color: green;}
+a:hover {color: red;}
+.body{
+   background-color:#f6f3ff;
+}
+.title{
+
+   display: flex;
+   justify-content: space-between;
+   height:80px;
+   text-align:center;
+   line-height:80px;
+   font-family: Verdana;
+   font-size: 30px;
+   font-weight:bold;
+   background-color:#f9c81e;
+   color:#fffaf3;
+}
+.t1{
+   text-align:center;
+   font-family: Verdana;
+   text-decoration: underline;
+   font-size:30px;
+   font-weight:bold;
+   color:#927715;
+}
+.brief{
+   text-align:center;
+   margin: auto;
+   height: 210px;
+   text-align:left;
+   font-size:15px;
+   color:#c5a01a;
+   font-weight:bold;
+   background-color:#f6f3ff;
+
+}
+.sidebar{
+   width:auto;
+   margin:auto;
+   height:290px;
+   text-align:center;
+   font-size:15px;
+   font-weight:bold;
+   background-color:#cecece;
+}
+.footer{
+   text-align:center;
+   line-height: 20px;
+   font-family: Verdana;
+   font-size: 20px;
+   font-weight:bold;
+   background-color:#f9c81e;
+   color:#fffaf3;
+}
